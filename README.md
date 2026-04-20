@@ -1,15 +1,15 @@
-# vdb-core
+# core
 
-`vdb-core` is the Go framework that powers VirtualDB -- a database proxy that sits transparently in front of an existing database server. The framework intercepts every connection, transaction, query, and record-level operation, routes each through an ordered pipeline of handlers, and maintains an in-memory delta store that overlays committed writes on top of source data without modifying the underlying database.
+`core` is the Go framework that powers VirtualDB -- a database proxy that sits transparently in front of an existing database server. The framework intercepts every connection, transaction, query, and record-level operation, routes each through an ordered pipeline of handlers, and maintains an in-memory delta store that overlays committed writes on top of source data without modifying the underlying database.
 
-`vdb-core` is the engine. It does not speak any wire protocol on its own. A driver (e.g. `vdb-mysql-driver`) implements the `Server` interface, receives the `DriverAPI` bridge, and calls back into the framework as database events occur.
+`core` is the engine. It does not speak any wire protocol on its own. A driver (e.g. `mysql-driver`) implements the `Server` interface, receives the `DriverAPI` bridge, and calls back into the framework as database events occur.
 
 ---
 
 ## Requirements
 
 - Go 1.23 or later
-- Module path: `github.com/AnqorDX/vdb-core`
+- Module path: `github.com/virtual-db/core`
 
 ---
 
@@ -129,7 +129,7 @@ Events are emitted after their corresponding operation completes. Subscribers re
 
 ## Public API
 
-All public types and functions are in the root package `github.com/AnqorDX/vdb-core`. Nothing under `internal/` is part of the public API.
+All public types and functions are in the root package `github.com/virtual-db/core`. Nothing under `internal/` is part of the public API.
 
 ### Types
 
@@ -236,7 +236,7 @@ package main
 import (
     "log"
 
-    core   "github.com/AnqorDX/vdb-core"
+    core   "github.com/virtual-db/core"
     driver "your/driver"
 )
 
