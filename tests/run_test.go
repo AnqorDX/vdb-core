@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/AnqorDX/vdb-core"
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	. "github.com/virtual-db/vdb-core"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // ── recordingServer ───────────────────────────────────────────────────────

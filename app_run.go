@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // Run executes the full startup sequence and then blocks until Stop is called

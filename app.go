@@ -3,16 +3,16 @@ package core
 import (
 	"sync"
 
-	"github.com/AnqorDX/vdb-core/internal/connection"
-	"github.com/AnqorDX/vdb-core/internal/delta"
-	"github.com/AnqorDX/vdb-core/internal/driverapi"
-	"github.com/AnqorDX/vdb-core/internal/emit"
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/lifecycle"
-	"github.com/AnqorDX/vdb-core/internal/plugin"
-	"github.com/AnqorDX/vdb-core/internal/schema"
-	"github.com/AnqorDX/vdb-core/internal/transaction"
-	"github.com/AnqorDX/vdb-core/internal/write"
+	"github.com/virtual-db/vdb-core/internal/connection"
+	"github.com/virtual-db/vdb-core/internal/delta"
+	"github.com/virtual-db/vdb-core/internal/driverapi"
+	"github.com/virtual-db/vdb-core/internal/emit"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/lifecycle"
+	"github.com/virtual-db/vdb-core/internal/plugin"
+	"github.com/virtual-db/vdb-core/internal/schema"
+	"github.com/virtual-db/vdb-core/internal/transaction"
+	"github.com/virtual-db/vdb-core/internal/write"
 )
 
 // Compile-time check: driverapi.Impl must satisfy the root DriverAPI interface.

@@ -4,11 +4,11 @@ package transaction
 import (
 	"fmt"
 
-	"github.com/AnqorDX/vdb-core/internal/connection"
-	"github.com/AnqorDX/vdb-core/internal/delta"
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/payloads"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/connection"
+	"github.com/virtual-db/vdb-core/internal/delta"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/payloads"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // Handlers owns all pipeline points that manage transaction lifecycle.

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AnqorDX/vdb-core/internal/connection"
-	. "github.com/AnqorDX/vdb-core/internal/driverapi"
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/points"
-	"github.com/AnqorDX/vdb-core/internal/schema"
+	"github.com/virtual-db/vdb-core/internal/connection"
+	. "github.com/virtual-db/vdb-core/internal/driverapi"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/schema"
 )
 
 // newTestImpl wires a fully-sealed global context and returns the Impl together

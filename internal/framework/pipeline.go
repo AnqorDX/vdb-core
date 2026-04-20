@@ -1,6 +1,6 @@
 package framework
 
-import "github.com/AnqorDX/pipeline"
+import "github.com/virtual-db/pipeline"
 
 // PointFunc is the handler type for all pipeline point handlers.
 // It is a type alias for pipeline.HandlerFunc, which is:

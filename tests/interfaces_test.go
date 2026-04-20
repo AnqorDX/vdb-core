@@ -3,7 +3,7 @@ package core_test
 import (
 	"testing"
 
-	core "github.com/AnqorDX/vdb-core"
+	core "github.com/virtual-db/vdb-core"
 )
 
 // ---- Stub types for compile-time interface satisfaction checks ----

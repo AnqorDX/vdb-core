@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/payloads"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/payloads"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // Handlers owns all pipeline points for the framework's lifecycle pipelines.

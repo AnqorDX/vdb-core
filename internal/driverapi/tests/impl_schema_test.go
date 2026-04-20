@@ -3,8 +3,8 @@ package driverapi_test
 import (
 	"testing"
 
-	. "github.com/AnqorDX/vdb-core/internal/driverapi"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	. "github.com/virtual-db/vdb-core/internal/driverapi"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // compile-time check: Impl is reachable via the dot import.

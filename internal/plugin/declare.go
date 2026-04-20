@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/framework"
 )
 
 // readDeclare reads the opening "declare" notification from a freshly connected
