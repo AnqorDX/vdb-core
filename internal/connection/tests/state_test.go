@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/connection"
+	. "github.com/virtual-db/core/internal/connection"
 )
 
 // TestState_Set_And_Get_RoundTrip verifies that a Conn stored via Set can be

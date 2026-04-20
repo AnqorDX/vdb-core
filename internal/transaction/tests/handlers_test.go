@@ -3,12 +3,12 @@ package transaction_test
 import (
 	"testing"
 
-	"github.com/virtual-db/vdb-core/internal/connection"
-	"github.com/virtual-db/vdb-core/internal/delta"
-	"github.com/virtual-db/vdb-core/internal/framework"
-	"github.com/virtual-db/vdb-core/internal/payloads"
-	"github.com/virtual-db/vdb-core/internal/points"
-	. "github.com/virtual-db/vdb-core/internal/transaction"
+	"github.com/virtual-db/core/internal/connection"
+	"github.com/virtual-db/core/internal/delta"
+	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/core/internal/payloads"
+	"github.com/virtual-db/core/internal/points"
+	. "github.com/virtual-db/core/internal/transaction"
 )
 
 func newTxPipe(t *testing.T) (*framework.Pipeline, *connection.State, *delta.Delta) {

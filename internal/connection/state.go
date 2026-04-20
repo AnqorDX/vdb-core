@@ -3,7 +3,7 @@ package connection
 import (
 	"sync"
 
-	"github.com/virtual-db/vdb-core/internal/delta"
+	"github.com/virtual-db/core/internal/delta"
 )
 
 // Conn holds per-connection framework bookkeeping for the lifetime of a single

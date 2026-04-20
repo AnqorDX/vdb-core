@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/delta"
+	. "github.com/virtual-db/core/internal/delta"
 )
 
 func mapKeys[V any](m map[string]V) []string {

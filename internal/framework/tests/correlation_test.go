@@ -3,7 +3,7 @@ package framework_test
 import (
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/framework"
+	. "github.com/virtual-db/core/internal/framework"
 )
 
 func TestNewCorrelationID_ZeroParent_BecomesRoot(t *testing.T) {

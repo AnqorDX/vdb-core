@@ -3,7 +3,7 @@ package delta_test
 import (
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/delta"
+	. "github.com/virtual-db/core/internal/delta"
 )
 
 // ---------------------------------------------------------------------------

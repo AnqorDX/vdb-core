@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/framework"
+	. "github.com/virtual-db/core/internal/framework"
 )
 
 // newSealedCtx builds a minimal GlobalContext for tests that only need a valid

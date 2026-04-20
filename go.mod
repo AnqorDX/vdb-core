@@ -1,4 +1,4 @@
-module github.com/virtual-db/vdb-core
+module github.com/virtual-db/core
 
 go 1.23
 

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/virtual-db/vdb-core/internal/schema"
+	. "github.com/virtual-db/core/internal/schema"
 )
 
 // TestCache_Load_And_Get_RoundTrip verifies that a table loaded into the cache

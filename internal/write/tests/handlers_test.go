@@ -3,13 +3,13 @@ package write_test
 import (
 	"testing"
 
-	"github.com/virtual-db/vdb-core/internal/connection"
-	"github.com/virtual-db/vdb-core/internal/delta"
-	"github.com/virtual-db/vdb-core/internal/framework"
-	"github.com/virtual-db/vdb-core/internal/payloads"
-	"github.com/virtual-db/vdb-core/internal/points"
-	"github.com/virtual-db/vdb-core/internal/schema"
-	. "github.com/virtual-db/vdb-core/internal/write"
+	"github.com/virtual-db/core/internal/connection"
+	"github.com/virtual-db/core/internal/delta"
+	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/core/internal/payloads"
+	"github.com/virtual-db/core/internal/points"
+	"github.com/virtual-db/core/internal/schema"
+	. "github.com/virtual-db/core/internal/write"
 )
 
 func newWritePipe(t *testing.T) (*framework.Pipeline, *schema.Cache, *delta.Delta) {

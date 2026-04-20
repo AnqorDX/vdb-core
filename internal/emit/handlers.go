@@ -5,9 +5,9 @@ package emit
 import (
 	"fmt"
 
-	"github.com/virtual-db/vdb-core/internal/framework"
-	"github.com/virtual-db/vdb-core/internal/payloads"
-	"github.com/virtual-db/vdb-core/internal/points"
+	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/core/internal/payloads"
+	"github.com/virtual-db/core/internal/points"
 )
 
 // Handlers fires the standard vdb.* events from pipeline emit points.
