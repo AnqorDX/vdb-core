@@ -3,7 +3,7 @@ package driverapi
 import (
 	"fmt"
 
-	"github.com/AnqorDX/vdb-core/internal/payloads"
+	"github.com/virtual-db/core/internal/payloads"
 )
 
 func validateQueryResult(v any) (string, error) {

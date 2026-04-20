@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	. "github.com/AnqorDX/vdb-core/internal/framework"
+	. "github.com/virtual-db/core/internal/framework"
 )
 
 func newTestBus(t *testing.T) *Bus {

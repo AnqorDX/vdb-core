@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/AnqorDX/vdb-core/internal/connection"
-	. "github.com/AnqorDX/vdb-core/internal/driverapi"
-	"github.com/AnqorDX/vdb-core/internal/payloads"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/core/internal/connection"
+	. "github.com/virtual-db/core/internal/driverapi"
+	"github.com/virtual-db/core/internal/payloads"
+	"github.com/virtual-db/core/internal/points"
 )
 
 // compile-time check: Impl is reachable via the dot import.

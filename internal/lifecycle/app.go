@@ -3,8 +3,8 @@
 package lifecycle
 
 import (
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/plugin"
+	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/core/internal/plugin"
 )
 
 // Server is the minimal shape lifecycle needs from the DB server.

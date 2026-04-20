@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/AnqorDX/vdb-core/internal/framework"
+	. "github.com/virtual-db/core/internal/framework"
 )
 
 func newTestPipe(t *testing.T) *Pipeline {

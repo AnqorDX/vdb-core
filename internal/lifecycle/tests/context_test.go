@@ -5,10 +5,10 @@ package lifecycle_test
 import (
 	"testing"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	. "github.com/AnqorDX/vdb-core/internal/lifecycle"
-	"github.com/AnqorDX/vdb-core/internal/plugin"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/core/internal/framework"
+	. "github.com/virtual-db/core/internal/lifecycle"
+	"github.com/virtual-db/core/internal/plugin"
+	"github.com/virtual-db/core/internal/points"
 )
 
 // ---------------------------------------------------------------------------

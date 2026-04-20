@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
+	"github.com/virtual-db/core/internal/framework"
 )
 
 // Manager discovers plugin manifests, launches subprocesses, and owns the

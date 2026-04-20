@@ -3,9 +3,9 @@ package connection
 import (
 	"fmt"
 
-	"github.com/AnqorDX/vdb-core/internal/framework"
-	"github.com/AnqorDX/vdb-core/internal/payloads"
-	"github.com/AnqorDX/vdb-core/internal/points"
+	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/core/internal/payloads"
+	"github.com/virtual-db/core/internal/points"
 )
 
 // Handlers owns all pipeline points that interact with connection state.

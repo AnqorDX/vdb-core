@@ -3,9 +3,9 @@ package write_test
 import (
 	"testing"
 
-	"github.com/AnqorDX/vdb-core/internal/delta"
-	"github.com/AnqorDX/vdb-core/internal/schema"
-	. "github.com/AnqorDX/vdb-core/internal/write"
+	"github.com/virtual-db/core/internal/delta"
+	"github.com/virtual-db/core/internal/schema"
+	. "github.com/virtual-db/core/internal/write"
 )
 
 func TestOverlay_NoSchema_ReturnsSourceUnchanged(t *testing.T) {
