@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/framework"
 )
 
 // pluginConn wraps a raw net.Conn with JSON-RPC framing and pending-request

@@ -4,9 +4,9 @@ package connection
 import (
 	"fmt"
 
-	"github.com/virtual-db/core/internal/framework"
-	"github.com/virtual-db/core/internal/payloads"
-	"github.com/virtual-db/core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/payloads"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // Handlers owns all pipeline points that interact with connection state.

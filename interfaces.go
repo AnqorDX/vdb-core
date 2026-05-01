@@ -2,7 +2,7 @@
 //
 // Consumers of vdb-core should import only this package:
 //
-//	github.com/virtual-db/core
+//	github.com/virtual-db/vdb-core
 //
 // All sub-packages under internal/ are implementation details.
 // The pipeline and event bus engines are provided by github.com/AnqorDX/pipeline

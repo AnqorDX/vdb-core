@@ -3,11 +3,11 @@ package driverapi
 import (
 	"log"
 
-	"github.com/virtual-db/core/internal/connection"
-	"github.com/virtual-db/core/internal/framework"
-	"github.com/virtual-db/core/internal/payloads"
-	"github.com/virtual-db/core/internal/points"
-	"github.com/virtual-db/core/internal/schema"
+	"github.com/virtual-db/vdb-core/internal/connection"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/payloads"
+	"github.com/virtual-db/vdb-core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/schema"
 )
 
 // Impl is the framework's concrete implementation of core.DriverAPI.

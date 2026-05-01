@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/virtual-db/core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/framework"
 )
 
 // UseDriver registers s as the database server. The composition root calls

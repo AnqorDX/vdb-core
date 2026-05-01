@@ -4,8 +4,8 @@ package write
 import (
 	"fmt"
 
-	"github.com/virtual-db/core/internal/delta"
-	"github.com/virtual-db/core/internal/schema"
+	"github.com/virtual-db/vdb-core/internal/delta"
+	"github.com/virtual-db/vdb-core/internal/schema"
 )
 
 // Overlay merges the delta state for table onto the source record slice.
