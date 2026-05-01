@@ -3,9 +3,9 @@ package write_test
 import (
 	"testing"
 
-	"github.com/virtual-db/core/internal/delta"
-	"github.com/virtual-db/core/internal/schema"
-	. "github.com/virtual-db/core/internal/write"
+	"github.com/virtual-db/vdb-core/internal/delta"
+	"github.com/virtual-db/vdb-core/internal/schema"
+	. "github.com/virtual-db/vdb-core/internal/write"
 )
 
 // TestOverlay_NoSchema_WithInsert_SurfacesDeltaRow is the regression test for

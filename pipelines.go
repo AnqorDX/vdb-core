@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/virtual-db/core/internal/framework"
-	"github.com/virtual-db/core/internal/points"
+	"github.com/virtual-db/vdb-core/internal/framework"
+	"github.com/virtual-db/vdb-core/internal/points"
 )
 
 // declarePipelines registers all 15 standard vdb.* pipelines with their ordered
